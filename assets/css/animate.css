@@ -1,0 +1,341 @@
+.animated{
+  animation-duration:1s;
+  animation-fill-mode:both;
+}
+
+.animated.infinite{
+  animation-iteration-count:infinite;
+}
+
+.animated.hinge{
+  animation-duration:2s;
+}
+
+.animated.flipOutX, .animated.flipOutY, .animated.bounceIn, .animated.bounceOut{
+  animation-duration:.75s;
+}
+
+.bounce{
+  animation-name:bounce;
+  transform-origin:center bottom;
+}
+
+.flash{
+  animation-name:flash;
+}
+
+.pulse{
+  animation-name:pulse;
+}
+
+.rubberBand{
+  animation-name:rubberBand;
+}
+
+.shake{
+  animation-name:shake;
+}
+
+.headShake{
+  animation-timing-function:ease-in-out;
+  animation-name:headShake;
+}
+
+.swing{
+  transform-origin:top center;
+  animation-name:swing;
+}
+
+.tada{
+  animation-name:tada;
+}
+
+.wobble{
+  animation-name:wobble;
+}
+
+.jello{
+  animation-name:jello;
+  transform-origin:center;
+}
+
+.bounceIn{
+  animation-name:bounceIn;
+}
+
+.bounceInDown{
+  animation-name:bounceInDown;
+}
+
+.bounceInLeft{
+  animation-name:bounceInLeft;
+}
+
+.bounceInRight{
+  animation-name:bounceInRight;
+}
+
+.bounceInUp{
+  animation-name:bounceInUp;
+}
+
+.bounceOut{
+  animation-name:bounceOut;
+}
+
+.bounceOutDown{
+  animation-name:bounceOutDown;
+}
+
+.bounceOutLeft{
+  animation-name:bounceOutLeft;
+}
+
+.bounceOutRight{
+  animation-name:bounceOutRight;
+}
+
+.bounceOutUp{
+  animation-name:bounceOutUp;
+}
+
+.fadeIn{
+  animation-name:fadeIn;
+}
+
+.fadeInDown{
+  animation-name:fadeInDown;
+}
+
+.fadeInDownBig{
+  animation-name:fadeInDownBig;
+}
+
+.fadeInLeft{
+  animation-name:fadeInLeft;
+}
+
+.fadeInLeftBig{
+  animation-name:fadeInLeftBig;
+}
+
+.fadeInRight{
+  animation-name:fadeInRight;
+}
+
+.fadeInRightBig{
+  animation-name:fadeInRightBig;
+}
+
+.fadeInUp{
+  animation-name:fadeInUp;
+}
+
+.fadeInUpBig{
+  animation-name:fadeInUpBig;
+}
+
+.fadeOut{
+  animation-name:fadeOut;
+}
+
+.fadeOutDown{
+  animation-name:fadeOutDown;
+}
+
+.fadeOutDownBig{
+  animation-name:fadeOutDownBig;
+}
+
+.fadeOutLeft{
+  animation-name:fadeOutLeft;
+}
+
+.fadeOutLeftBig{
+  animation-name:fadeOutLeftBig;
+}
+
+.fadeOutRight{
+  animation-name:fadeOutRight;
+}
+
+.fadeOutRightBig{
+  animation-name:fadeOutRightBig;
+}
+
+.fadeOutUp{
+  animation-name:fadeOutUp;
+}
+
+.fadeOutUpBig{
+  animation-name:fadeOutUpBig;
+}
+
+.animated.flip{
+  -webkit-backface-visibility:visible;
+  backface-visibility:visible;
+  animation-name:flip;
+}
+
+.flipInX{
+  -webkit-backface-visibility:visible !important;
+  backface-visibility:visible !important;
+  animation-name:flipInX;
+}
+
+.flipInY{
+  -webkit-backface-visibility:visible !important;
+  backface-visibility:visible !important;
+  animation-name:flipInY;
+}
+
+.flipOutX{
+  animation-name:flipOutX;
+  -webkit-backface-visibility:visible !important;
+  backface-visibility:visible !important;
+}
+
+.flipOutY{
+  -webkit-backface-visibility:visible !important;
+  backface-visibility:visible !important;
+  animation-name:flipOutY;
+}
+
+.lightSpeedIn{
+  animation-name:lightSpeedIn;
+  animation-timing-function:ease-out;
+}
+
+.lightSpeedOut{
+  animation-name:lightSpeedOut;
+  animation-timing-function:ease-in;
+}
+
+.rotateIn{
+  animation-name:rotateIn;
+}
+
+.rotateInDownLeft{
+  animation-name:rotateInDownLeft;
+}
+
+.rotateInDownRight{
+  animation-name:rotateInDownRight;
+}
+
+.rotateInUpLeft{
+  animation-name:rotateInUpLeft;
+}
+
+.rotateInUpRight{
+  animation-name:rotateInUpRight;
+}
+
+.rotateOut{
+  animation-name:rotateOut;
+}
+
+.rotateOutDownLeft{
+  animation-name:rotateOutDownLeft;
+}
+
+.rotateOutDownRight{
+  animation-name:rotateOutDownRight;
+}
+
+.rotateOutUpLeft{
+  animation-name:rotateOutUpLeft;
+}
+
+.rotateOutUpRight{
+  animation-name:rotateOutUpRight;
+}
+
+.hinge{
+  animation-name:hinge;
+}
+
+.jackInTheBox{
+  animation-name:jackInTheBox;
+}
+
+.rollIn{
+  animation-name:rollIn;
+}
+
+.rollOut{
+  animation-name:rollOut;
+}
+
+.zoomIn{
+  animation-name:zoomIn;
+}
+
+.zoomInDown{
+  animation-name:zoomInDown;
+}
+
+.zoomInLeft{
+  animation-name:zoomInLeft;
+}
+
+.zoomInRight{
+  animation-name:zoomInRight;
+}
+
+.zoomInUp{
+  animation-name:zoomInUp;
+}
+
+.zoomOut{
+  animation-name:zoomOut;
+}
+
+.zoomOutDown{
+  animation-name:zoomOutDown;
+}
+
+.zoomOutLeft{
+  animation-name:zoomOutLeft;
+}
+
+.zoomOutRight{
+  animation-name:zoomOutRight;
+}
+
+.zoomOutUp{
+  animation-name:zoomOutUp;
+}
+
+.slideInDown{
+  animation-name:slideInDown;
+}
+
+.slideInLeft{
+  animation-name:slideInLeft;
+}
+
+.slideInRight{
+  animation-name:slideInRight;
+}
+
+.slideInUp{
+  animation-name:slideInUp;
+}
+
+.slideOutDown{
+  animation-name:slideOutDown;
+}
+
+.slideOutLeft{
+  animation-name:slideOutLeft;
+}
+
+.slideOutRight{
+  animation-name:slideOutRight;
+}
+
+.slideOutUp{
+  animation-name:slideOutUp;
+}
+
